@@ -31,7 +31,7 @@
 					<div class="col-lg-6 col-sm-6">
 						<div class="row">			
 							<div class="col-lg-12 col-sm-3 ">
-								<input type="text" class="form-control" name="suburb" placeholder="Search by suburb or postcode">
+								<input type="text" class="form-control" name="suburb" placeholder="Search by suburb">
 							</div>
 							<div class="col-lg-3 col-sm-3 ">
 							  Property Type
