@@ -3,8 +3,8 @@
 // Create PDO
 function GetConnection() {
 	
-	$pdo = new PDO('mysql:host=localhost;dbname=authentication', 'root', 'sierracharlie');
-	//$pdo = new PDO('mysql:host=fastapps04.qut.edu.au;dbname=n8441626', 'n8441626', 'isengard');
+	//$pdo = new PDO('mysql:host=localhost;dbname=authentication', 'root', 'sierracharlie');
+	$pdo = new PDO('mysql:host=localhost;dbname=id1826599_admin', 'id1826599_adminroot', 'isengard');
 
 	return $pdo;   
 }

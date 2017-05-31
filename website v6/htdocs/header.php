@@ -2,8 +2,8 @@
 include'functions.php';	
 session_start();
 //connect to database
-$db=mysqli_connect("localhost","root","sierracharlie","authentication");
-
+//$db=mysqli_connect("localhost","root","sierracharlie","authentication");
+$db=mysqli_connect("localhost","id1826599_adminroot","sierracharlie","id1826599_admin");
 if (isset($_SESSION['username'])) {
 	$user_email = $_SESSION['username'];
 	$user = GetUser($user_email);
