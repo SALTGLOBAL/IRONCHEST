@@ -2,8 +2,8 @@
 include'functions.php';	
 session_start();
 //connect to database
-$db=mysqli_connect("localhost","root","sierracharlie","authentication");
-
+//$db=mysqli_connect("localhost","root","sierracharlie","authentication");
+$db=mysqli_connect("localhost","id1826599_adminroot","sierracharlie","id1826599_admin");
 if (isset($_SESSION['username'])) {
 	$user_email = $_SESSION['username'];
 	$user = GetUser($user_email);
@@ -11,7 +11,8 @@ if (isset($_SESSION['username'])) {
 
 if(isset($_SESSION['message']))
 {
-     echo "<div id='error_msg'>".$_SESSION['message']."</div>";
+     echo '<div class="alert success"><span class="closebtn">&times;</span> '.$_SESSION['message'].'</div>';
+     //echo "<div id='error_msg'>".$_SESSION['message']."</div>";
      unset($_SESSION['message']);
 }
 
@@ -26,7 +27,7 @@ if(isset($_SESSION['message']))
 
  	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
   <link rel="stylesheet" href="assets/style.css"/>
-  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="assets/jquery.js"></script>
 	<script src="assets/bootstrap/js/bootstrap.js"></script>
   <script src="assets/script.js"></script>
 

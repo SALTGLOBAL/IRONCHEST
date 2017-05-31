@@ -1,7 +1,8 @@
 <?php
 session_start();
 //connect to database
-$db=mysqli_connect("localhost","root","","authentication");
+$db=mysqli_connect("localhost","id1826599_adminroot","sierracharlie","id1826599_admin");
+//$db=mysqli_connect("localhost","root","","authentication");
 if(isset($_POST['login_btn']))
 {
     $username=mysql_real_escape_string($_POST['username']);

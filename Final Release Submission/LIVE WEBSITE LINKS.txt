@@ -1,0 +1,8 @@
+https://ifb299group9.000webhostapp.com/	<- The Website
+pptppt2004@naver.com			<- username with admin privillege
+1234					<- password for above username
+
+https://databases.000webhost.com/ <- The Database
+
+Database username: "id1826599_adminroot"
+Database password: "sierracharlie" 

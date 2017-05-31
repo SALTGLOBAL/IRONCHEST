@@ -1,6 +1,7 @@
 <?php
 session_start();
-$db=mysqli_connect("localhost","root","sierracharlie","authentication");
+$db=mysqli_connect("localhost","id1826599_adminroot","sierracharlie","id1826599_admin");
+//$db=mysqli_connect("localhost","root","","authentication");
 if(isset($_POST['login_btn']))
 {
     $email=($_POST['user']);
@@ -17,5 +18,4 @@ if(isset($_POST['login_btn']))
 }
 header("location:index.php");
 	
-?>	
-	
+?>

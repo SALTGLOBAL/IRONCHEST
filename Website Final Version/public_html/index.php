@@ -123,9 +123,7 @@
 							}else if($user_type == "admin"){
 								echo'<h3>Welcome back, Admin_'.$user[1].'!</h3>
 								<div class="col-lg-6 col-sm-4">
-									<form action="index.php" method="get" name="doSearch">
-									<button class="btn btn-success" name="gotoDatabase">Go to database</button>
-									</form></div>';
+								<button><a href="https://databases.000webhost.com/" target="_blank">Go to database</a></button></div>';
 							}else if($user_type == "tenant"){
 								echo'<h3>Welcome back, Tenant_'.$user[1].'!</h3>
 								<p>You have '.count(getFavouriteCount($user[0])).' properties saved in your favourites.<br>
@@ -140,9 +138,7 @@
 								<p>You have '.count(getFavouriteCount($user[0])).' properties saved in your favourites.<br>
 									You have '.count(getMessageCount($user[1])).' messages are awaiting your response.
 								<div class="col-lg-6 col-sm-4">
-									<form action="index.php" method="get" name="doSearch">
-									<button class="btn btn-success" name="gotoDatabase">Go to database</button>
-									</form></div>';
+									<button><a href="https://databases.000webhost.com/" target="_blank">Go to database</a></button></div>';
 							}
 						}else{ 
 							echo "<p>Join now and get updated with all the properties deals.</p>";
